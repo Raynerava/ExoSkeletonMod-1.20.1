@@ -17,9 +17,12 @@ import javax.xml.namespace.QName;
 
 public class ModItems {
     public static final Item CANON = registerItem("canon", new Item(new FabricItemSettings()));
+    public static final Item COCKPIT = registerItem("cockpit", new Item(new FabricItemSettings()));
+
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(CANON);
+        entries.add(COCKPIT);
     }
 
     private static Item registerItem(String name, Item item) {

@@ -1,3 +1,6 @@
 {
-  "item.exomod.canon": "canon"
+  "item.exomod.canon": "Canon",
+  "item.exomod.cockpit": "Cockpit",
+
+  "itemgroup.exo": "EXO Skeleton Mod Group"
 }
